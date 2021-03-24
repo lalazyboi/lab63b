@@ -2,7 +2,7 @@
 
 ## วัตถุประสงค์
 1. เพื่อศึกษาการใช้ตัวไมโครคอนโทรเลอร์
-2. เพื่อฝึกเขียนโปรแกรมลงบนไมโครคอนเลอร์
+2. เพื่อฝึกเขียนโปรแกรมลงบนไมโครคอนโทรเลอร์
 
 ## อุปกรณ์ที่ใช้
 1. ไมโครคอนโทรลเลอร์(ESP-01)
@@ -10,10 +10,14 @@
 3. USB to serial port
 
 ## ศึกษาข้อมูลเบื้องต้น
-*วิธีการทดลอง https://github.com/choompol-boonmee/lab63b
+* วิธีการทดลอง https://github.com/choompol-boonmee/lab63b
+* Source code https://github.com/choompol-boonmee/lab63b/tree/master/examples
+* platformIO https://platformio.org/
 
 ## วิธีทำการทดลอง
-1. 
+1. เสียบ USB to serial เข้าที่คอมพิวเตอร์ จากนั้นเสียบไมโครคอนโทรเลอร์ลง USB
+2. เขียนโปรแกรมโดยพิมพ์คำสั่ง cd 01_Serial-Monitor 
+3. พิมพ์ vi src/main.cpp
 
 
 ## การบันทึกผลการทดลอง
