@@ -10,7 +10,7 @@
 3. USB to serial port
 
 ## ศึกษาข้อมูลเบื้องต้น
-* [วิธีการทดลอง](https://github.com/choompol-boonmee/lab63b)
+* [วิธีการทดลอง](https://www.youtube.com/watch?v=NLIUsWLEpmg&ab_channel=TANI-IOT)
 * [Source code](https://github.com/choompol-boonmee/lab63b/tree/master/examples)
 * [platformIO](https://platformio.org/)
 
