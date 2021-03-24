@@ -15,7 +15,7 @@
 8. ตัวต้านทาน
 
 ## ศึกษาข้อมูลเบื้องต้น
-* [วิธีการทดลอง](https://github.com/choompol-boonmee/lab63b)
+* [วิธีการทดลอง](https://www.youtube.com/watch?v=nFqoZT26U5k&ab_channel=TANI-IOT)
 * [Source code](https://github.com/choompol-boonmee/lab63b/tree/master/examples)
 * [platformIO](https://platformio.org/)
 
