@@ -13,7 +13,7 @@
 6. LED
 
 ## ศึกษาข้อมูลเบื้องต้น
-* [วิธีการทดลองตอนที่ 1](https://www.youtube.com/watch?v=yBjab0UNuB8&ab_channel=TANI-IOT)
+* [วิธีการทดลองตอนที่ 1](https://www.youtube.com/watch?v=CCnN1WJsXQY&ab_channel=TANI-IOT)
 * [วิธีการทดลองตอนที่ 2](https://www.youtube.com/watch?v=6JnhaUILGuw&ab_channel=TANI-IOT)
 * [Source code](https://github.com/choompol-boonmee/lab63b/tree/master/examples)
 * [platformIO](https://platformio.org/)
