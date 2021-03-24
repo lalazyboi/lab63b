@@ -10,23 +10,48 @@
 3. USB to serial port
 
 ## ศึกษาข้อมูลเบื้องต้น
-* วิธีการทดลอง https://github.com/choompol-boonmee/lab63b
-* Source code https://github.com/choompol-boonmee/lab63b/tree/master/examples
-* platformIO https://platformio.org/
+* [วิธีการทดลอง](https://github.com/choompol-boonmee/lab63b)
+* [Source code](https://github.com/choompol-boonmee/lab63b/tree/master/examples)
+* [platformIO](https://platformio.org/)
 
 ## วิธีทำการทดลอง
 1. เสียบ USB to serial เข้าที่คอมพิวเตอร์ จากนั้นเสียบไมโครคอนโทรเลอร์ลง USB
-2. เขียนโปรแกรมโดยพิมพ์คำสั่ง *cd pattani* แล้วพิมพ์ *ls
-3. ให้เข้าไปที่โฟลเดอร์ที่ 1 โดยพิมพ์ *cd 01_Serial-Monitor* ตามด้วย *vi src/main.cpp
-4. Upload โปรแกรมจากคำสั่ง *pio run -t upload
-5. กดปุ่มสีดำที่ไมโครคอนโทรเลอร์เพื่อทำการ Download โปรแกรมแล้วกดปุ่ม Reset
-6. พิมพ์ `pio device monitor` เพื่อรันโปรแกรม`
+![2021-03-24 (5)](https://user-images.githubusercontent.com/78695932/112347408-6a1d9100-8cf9-11eb-9e93-8c7fe5f51aca.png)
+
+
+
+2. เขียนโปรแกรมโดยพิมพ์คำสั่ง `cd pattani` แล้วพิมพ์ `ls
+![2021-03-24 (7)](https://user-images.githubusercontent.com/78695932/112347558-8d484080-8cf9-11eb-875c-7b20e76de916.png)
+
+
+3. ให้เข้าไปที่โฟลเดอร์ที่ 1 โดยพิมพ์ `cd 01_Serial-Monitor` ตามด้วย `vi src/main.cpp
+![2021-03-24 (8)](https://user-images.githubusercontent.com/78695932/112347591-93d6b800-8cf9-11eb-9281-f55ad5937f0d.png)
+
+
+4. พิมพ์ `vi platformio.ini` เพื่อดูข้อมูล
+![2021-03-24 (10)](https://user-images.githubusercontent.com/78695932/112347632-9b965c80-8cf9-11eb-86b1-425654628096.png)
+
+5. Upload โปรแกรมจากคำสั่ง `pio run -t upload
+![2021-03-24 (9)](https://user-images.githubusercontent.com/78695932/112347729-b1a41d00-8cf9-11eb-8571-79c5e977e190.png)
+
+
+6. กดปุ่มสีดำที่ไมโครคอนโทรเลอร์เพื่อทำการ Download โปรแกรมแล้วกดปุ่ม Reset
+![2021-03-24 (12)](https://user-images.githubusercontent.com/78695932/112347805-c4b6ed00-8cf9-11eb-81da-9e0339b1572d.png)
+
+
+7. พิมพ์ `pio device monitor` เพื่อรันโปรแกรม
+![2021-03-24 (13)](https://user-images.githubusercontent.com/78695932/112347867-d13b4580-8cf9-11eb-88cb-b2472723f5cc.png)
+
+
 
 ## การบันทึกผลการทดลอง
-
+    ให้สังเกตผลการทดลองแล้วเขียนอธิบาย เช่น โปรแกรมแสดงผลตัวแปร cnt ที่เริ่มจาก 0 จะเพิ่มขึ้นทีละ 1 และจะแสดงผลทุก 1 วินาที
 
 ## อภิปรายผลการทดลอง
-
+    ในการทดลองนี้เราสามารถนำไปประยกต์ใช้หรือคิดต่อยอดอะไรได้อีกบ้าง เช่น สามารถนำความรู้ที่ได้ไปเขียนโปรแกรมอื่นๆลงไมโครคอนโทรเลอร์ได้
 
 ## คำถามหลังการทดลอง
-
+1. ในการทดลองนี้เราสามารถรู้ความเร็วในการ set serial port ได้จากส่วนไหนในโปรแกรมและมีความเร็วอู่ที่เท่าไหร่ 
+     * วงเล็บหลัง Serial.begin มีความเร็วที่ 115200 bit/s 
+2. ในการทดลองนี้มีคำสั่งอยู่ 2 ส่วน แต่ละส่วนแตกต่างกันอย่างไร
+     * ทำงานครั้งเดียวกับทำงานวนลูปไปเรื่อย ๆ
