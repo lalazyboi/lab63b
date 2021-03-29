@@ -31,7 +31,7 @@
 4. upload โปรแกรมโดยพิมพ์ `pio run -t upload`
 ![2021-03-25 (4)](https://user-images.githubusercontent.com/78695932/112357582-414dc980-8d02-11eb-9d37-ecb30a6d941f.png)
 
-5. กดปุ่ม upload แล้วกด reset ที่ไมโครคอนโทรเลอร์
+5. กดปุ่ม download แล้วกด reset ที่ไมโครคอนโทรเลอร์
 ![2021-03-25 (5)](https://user-images.githubusercontent.com/78695932/112357563-3bf07f00-8d02-11eb-8584-6498f172a6fb.png)
 
 6. พิมพ์ `pio device monitor` เพื่อให้โปรแกรมทำงาน
