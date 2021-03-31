@@ -11,7 +11,7 @@
 
 ## ศึกษาข้อมูลเบื้องต้น
 * [วิธีการทดลอง](https://www.youtube.com/watch?v=yBjab0UNuB8&ab_channel=TANI-IOT)
-* [Source code](https://github.com/choompol-boonmee/lab63b/tree/master/examples)
+* [Source code](https://media.discordapp.net/attachments/818476386783985684/826827103818612746/2021-03-31_213526.png?width=1039&height=670)
 * [platformIO](https://platformio.org/)
 
 ## วิธีทำการทดลอง
