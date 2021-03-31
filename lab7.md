@@ -11,7 +11,7 @@
 
 ## ศึกษาข้อมูลเบื้องต้น
 * [วิธีการทดลอง](https://www.youtube.com/watch?v=yBjab0UNuB8&ab_channel=TANI-IOT)
-* [Source code](https://cdn.discordapp.com/attachments/818476386783985684/826858360044388403/2021-03-31_233944.png)
+* [Source code](https://cdn.discordapp.com/attachments/818476386783985684/826859737614123038/unknown.png)
 * [platformIO](https://platformio.org/)
 
 ## วิธีทำการทดลอง
@@ -19,7 +19,7 @@
 ![2021-03-24 (14)](https://user-images.githubusercontent.com/78695932/112349799-9e924c80-8cfb-11eb-933f-fe947152d55d.png)
 
 2. สามารถดูข้อมูลหรือ code ได้โดยพิมพ์ `vi src/main.cpp`
-![สกรีนช็อต 2021-03-31 233944](https://user-images.githubusercontent.com/78695932/113180049-7b771800-927a-11eb-9753-1a53a79f5a9b.png)
+![สกรีนช็อต 2021-03-31 234516](https://user-images.githubusercontent.com/78695932/113182274-e88bad00-927c-11eb-9a76-a43221d707cb.png)
 
 3. Upload โปรแกรมโดยพิมพ์คำสั่ง `pio run -t upload`
 ![2021-03-24 (15)](https://user-images.githubusercontent.com/78695932/112349826-a4882d80-8cfb-11eb-893f-41a09c8a35e3.png)
