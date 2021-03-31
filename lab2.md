@@ -15,7 +15,7 @@
 * [platformIO](https://platformio.org/)
 
 ## วิธีทำการทดลอง
-1. เสียบไมโครคอนโทรเลอร์ลง USB to serial port ที่่ต่อกับคอมพิวเตอร์
+1. เสียบไมโครคอนโทรเลอร์ลง USB to serial port ที่ต่อกับคอมพิวเตอร์
 ![2021-03-24 (14)](https://user-images.githubusercontent.com/78695932/112349799-9e924c80-8cfb-11eb-933f-fe947152d55d.png)
 
 2. Upload โปรแกรมโดยพิมพ์คำสั่ง `vi src/main.cpp` แล้วพิมพ์ `pio run -t upload`
